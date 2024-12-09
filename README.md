@@ -4,7 +4,7 @@
 ```
 conda create --name main-ds python=3.9
 conda activate main-ds
-pip install -r requirements1.txt
+pip install -r requirements.txt
 ```
 
 ## Setup Environment - Shell/Terminal
@@ -13,7 +13,7 @@ mkdir DASHBOARD
 cd DASHBOARD
 pipenv install
 pipenv shell
-pip install -r requirements1.txt
+pip install -r requirements.txt
 ```
 
 ## Run steamlit app
